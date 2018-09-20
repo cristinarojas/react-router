@@ -12,7 +12,7 @@ const Header = props => {
 
   return (
     <header className="App-header">
-      <a href={url}>
+      <a href={url}> hola
         <img src={logo} className="App-logo" alt="logo" />
       </a>
       <h1 className="App-title">{title}</h1>
@@ -32,3 +32,5 @@ Header.propTypes = {
   title: PropTypes.string.isRequired,
   url: PropTypes.string
 };
+
+export default Header;
